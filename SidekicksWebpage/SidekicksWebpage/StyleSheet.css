@@ -1,9 +1,9 @@
 ﻿body {
-    font-familyz
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
-    font-family:'Avenir 85';
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #870F0E;
     font-size: 90px;
 }
