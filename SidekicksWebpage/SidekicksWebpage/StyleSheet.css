@@ -1,10 +1,10 @@
 ﻿body {
-    font-family: Georgia;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     padding 20px;
 }
 
 h1 {
-    font-family: 'Avenir 85';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #870F0E;
     font-size: 36px;
 }
