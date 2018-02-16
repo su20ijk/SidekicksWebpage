@@ -1,26 +1,40 @@
 ﻿body {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #870F0E;
     font-size: 24px;
 }
-
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #27408E;
     font-size: 20px;
 }
+.head {
+    grid-area:head;
+    background-color:#EEE;
+}
 .sidenav {
-    height: 100%;
-    width:12.5%;
-    position:fixed;
-    background-color:#000000;
-    left:0;
-    top:0;
-    overflow-x:hidden; 
+    grid-area: sidenav;
+    background-color:#EEE;
+}
+.main {
+    grid-area: main;
+    background-color:#000;
+}
+.footer {
+    grid-area: footer;
+    background-color:#BBB;
+}
+.grid-container {
+    display:grid;
+    grid-template-areas:
+        'head head head head head'
+        'sidenav main main main main'
+        'sidenav main main main main'
+        'sidenav main main main main'
+        'footer footer footer footer footer';
 }
 .sidenav a {
     padding: 15px;
