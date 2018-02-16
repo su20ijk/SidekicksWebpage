@@ -38,3 +38,29 @@ h2 {
     margin-left:12.5%;
     padding-right:10px;
 }
+
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 30px;
+    height: 28px;
+    padding-top: 4px;
+    padding-right: 2px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #27408E;
+    color: #5b9ccf;
+    margin-right: 10px;
+}
+
+.fa-twitter {
+    background: #5b9ccf;
+    color: #27408E;
+}
