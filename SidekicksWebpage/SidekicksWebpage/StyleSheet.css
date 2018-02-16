@@ -17,20 +17,20 @@ h2 {
     height: 100%;
     width:12.5%;
     position:fixed;
-    background-color:#000000;
+    background-color:#d3d3d3;
     left:0;
     top:0;
     overflow-x:hidden; 
 }
-.sidenav a {
-    padding: 15px;
-    font-size: 30px;
-    text-decoration: none;
-    color: #d3d3d3;
-    display: block;
-    vertical-align: middle;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-}
+    .sidenav a {
+        padding: 15px;
+        font-size: 30px;
+        text-decoration: none;
+        color: #5b9ccf;
+        display: block;
+        vertical-align: middle;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
 .sidenav a:hover {
     color:#FFA104;
 }
