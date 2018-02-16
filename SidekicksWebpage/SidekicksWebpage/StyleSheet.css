@@ -5,26 +5,36 @@
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #870F0E;
-    font-size: 90px;
+    font-size: 24px;
 }
 
 h2 {
-    font-family: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #27408E;
     font-size: 20px;
 }
 .sidenav {
-
+    height: 100%;
+    width:12.5%;
+    position:fixed;
+    background-color:#000000;
+    left:0;
+    top:0;
+    overflow-x:hidden; 
 }
-.sidenav.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+.sidenav a {
+    padding: 15px;
+    font-size: 30px;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    color: #d3d3d3;
+    display: block;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.sidenav a:hover {
+    color:#FFA104;
+}
+.main {
+    margin-left:12.5%;
+    padding-right:10px;
 }
