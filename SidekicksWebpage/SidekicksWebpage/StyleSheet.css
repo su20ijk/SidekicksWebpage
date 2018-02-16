@@ -13,19 +13,19 @@ h2 {
 }
 .head {
     grid-area:head;
-    background-color:#EEE;
 }
 .sidenav {
     grid-area: sidenav;
-    background-color:#EEE;
+    background-color: #;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
 }
 .main {
     grid-area: main;
-    background-color:#000;
 }
 .footer {
     grid-area: footer;
-    background-color:#BBB;
 }
 .grid-container {
     display:grid;
@@ -40,15 +40,11 @@ h2 {
     padding: 15px;
     font-size: 30px;
     text-decoration: none;
-    color: #d3d3d3;
+    color: white;
     display: block;
     vertical-align: middle;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 .sidenav a:hover {
     color:#FFA104;
-}
-.main {
-    margin-left:12.5%;
-    padding-right:10px;
 }
