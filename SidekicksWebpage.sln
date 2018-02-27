@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SidekicksWebpage", "SidekicksWebpage\", "{1AA3AC1E-82B3-4A96-99EC-1CA886B22E42}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -23,6 +23,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SidekicksWebpage", "Sidekic
 		VWDPort = "59166"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3EA41D5D-E9A7-4087-92A3-90B196781602}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
