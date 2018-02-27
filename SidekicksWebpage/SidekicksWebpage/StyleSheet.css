@@ -12,43 +12,35 @@ h2 {
     color: #27408E;
     font-size: 20px;
 }
-.head {
-    grid-area: head;
-    margin: 0px;
-}
 .sidenav {
-    grid-area: sidenav;
-    left: 0;
+    height: 100%;
+    width: 12.5%;
+    position:fixed;
+    z-index: 1;
     top: 0;
-    overflow-x: hidden; 
+    left: 0;
+    background-color: #5b9ccf;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 
     .sidenav a {
-        padding: 15px;
-        font-size: 30px;
+        padding: 6px 8px 6px 16px;
         text-decoration: none;
-        color: black;
+        font-size: 25px;
+        color: #ffa104;
         display: block;
-        vertical-align: middle;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
     }
 
         .sidenav a:hover {
-            color: #FFA104;
+            color: #d3d3d3;
         }
+
 .main {
-    grid-area: main;
+    margin-left: 12.5%; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+    position: fixed;
 }
 .footer {
-    grid-area: footer;
-}
-.grid-container {
-    display:grid;
-    grid-template-areas:
-        'head head head head head'
-        'sidenav main main main main'
-        'sidenav main main main main'
-        'sidenav main main main main'
-        'footer footer footer footer footer';
+
 }
