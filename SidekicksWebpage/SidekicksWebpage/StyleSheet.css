@@ -2,17 +2,25 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0px;
 }
-
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #870F0E;
     font-size: 24px;
 }
-
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #27408E;
     font-size: 20px;
+}
+.head {
+    grid-area: head;
+    margin: 0px;
+}
+.sidenav {
+    grid-area: sidenav;
+    left: 0;
+    top: 0;
+    overflow-x: hidden; 
 }
 
 .sidenav {
