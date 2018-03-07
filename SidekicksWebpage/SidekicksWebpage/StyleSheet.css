@@ -1,14 +1,48 @@
 ﻿body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
 }
 
 h1 {
-    font-family: 'Avenir 85';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #870F0E;
-    font-size: 50px;
+    font-size: 24px;
 }
 
 h2 {
-    font-family: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #27408E;
     font-size: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 12.5%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #5b9ccf;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 24px;
+        color: #ffa104;
+        display: block;
+    }
+
+        .sidenav a:hover {
+            color: #d3d3d3;
+        }
+
+.main {
+    margin-left: 12.5%; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+}
+
+.footer {
 }
