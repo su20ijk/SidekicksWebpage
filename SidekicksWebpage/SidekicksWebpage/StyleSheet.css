@@ -1,9 +1,9 @@
 ﻿body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0px;
 }
 h1 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #870F0E;
     font-size: 24px;
 }
@@ -24,58 +24,34 @@ h2 {
     float:left;
 }
 
+.sidenav {
+    height: 100%;
+    width: 12.5%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #5b9ccf;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
     .sidenav a {
-        padding: 15px;
-        font-size: 30px;
+        padding: 6px 8px 6px 16px;
         text-decoration: none;
-        color: black;
+        font-size: 24px;
+        color: #ffa104;
         display: block;
-        vertical-align: middle;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
     }
 
         .sidenav a:hover {
-            color: #FFA104;
+            color: #d3d3d3;
         }
+
 .main {
-    grid-area: main;
+    margin-left: 12.5%; /* Same as the width of the sidenav */
+    padding: 0px 10px;
 }
+
 .footer {
-    grid-area: footer;
-}
-.grid-container {
-    display:grid;
-    grid-template-areas:
-        'head head head head head'
-        'sidenav main main main main'
-        'sidenav main main main main'
-        'sidenav main main main main'
-        'footer footer footer footer footer';
-}
-
-.fa {
-    padding: 0px;
-    font-size: 30px;
-    width: 30px;
-    height: 28px;
-    padding-top: 4px;
-    padding-right: 2px;
-    text-align: right;
-    text-decoration: none;
-}
-
-.fa:hover{
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #27408E;
-    color: #5b9ccf;
-    margin-right: 10px;
-}
-
-.fa-twitter {
-    background: #5b9ccf;
-    color: #27408E;
 }
