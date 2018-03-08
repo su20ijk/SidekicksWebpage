@@ -55,3 +55,14 @@ h2 {
 
 .footer {
 }
+
+.presText{
+    float: left;
+}
+
+.presImage{
+    float: right;
+}
+
+.nextStep{
+}
