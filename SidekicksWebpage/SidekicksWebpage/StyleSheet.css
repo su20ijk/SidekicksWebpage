@@ -21,6 +21,7 @@ h2 {
     left: 0;
     top: 0;
     overflow-x: hidden; 
+    float:left;
 }
 
 .sidenav {
@@ -53,4 +54,15 @@ h2 {
 }
 
 .footer {
+}
+
+.presText{
+    float: left;
+}
+
+.presImage{
+    float: right;
+}
+
+.nextStep{
 }
